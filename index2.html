@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select ,option, datalist </title>
+</head>
+
+<body>
+    <select name="" id="">
+        <option disabled selected>choose your gender</option>
+        <option value="">male</option>
+        <option value="">female</option>
+    </select>
+
+    <select>
+        <option value="1">basic plan</option>
+        <option value="2">pro plan</option>
+        <option value="3 ">premium plan</option>
+    </select>
+
+    <select>
+        <optgroup label="frontend">
+            <option>html</option>
+            <option>CSS</option>
+        </optgroup>
+        <optgroup label="backend">
+            <option value="">node.js</option>
+            <option value="">python</option>
+        </optgroup>
+    </select>
+
+    <input list="browser" placeholder="search your browser...">
+    <datalist id="browser">
+        <option value="chrome"></option>
+        <option value="firebox"></option>
+        <option value="edge"></option>
+        <option value="brave"></option>
+        <option value="opera"></option>
+    </datalist>
+
+    <form >
+        <fieldset>
+            <legend>Address details</legend>
+
+            <label for="">house no.</label>
+            <input type="text"> <br><br>
+
+            <label for="">city:</label>
+            <input type="text"> <br><br>
+
+            <label for="">state:</label>
+            <input type="text"><br><br>
+
+            <label for="">pincode</label>
+            <input type="text">
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
